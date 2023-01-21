@@ -16,7 +16,7 @@ def quicksort(list, start, end):
   less_than_pointer = start
   
   for i in range(start, end):
-    # we found an element out of place
+    # we found a initn element out of place
     if list[i] < pivot_element:
       # swap element to the right-most portion of lesser elements
       list[i], list[less_than_pointer] = list[less_than_pointer], list[i]
